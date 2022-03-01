@@ -32,7 +32,7 @@ body {
 /* NAV */
 .container-nav {
     margin: 50px 200px 0px;
-    padding: 1em;
+    padding: 2em;
     background-color: white;
     border-top: 1px solid white;
     border-right: 1px solid white;
@@ -47,7 +47,7 @@ body {
     border: 1px solid #47adf1;
     border-radius: 10px;
     padding: 8px;
-    font-family: ar;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     color: white;
 }
@@ -71,9 +71,10 @@ body {
     border-radius: 5px;
 }
 
+/* LISTS */
 ol {
     list-style: none;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 ul {
@@ -84,6 +85,7 @@ ul {
     font-weight: 700;
 }
 
+/* SPECIAL CHARACTERS */
 .check {
     display: inline-block;
     height: 20px;
@@ -104,4 +106,43 @@ ul {
     color: red;
     line-height: 0.8em;
     padding: 4px;
+}
+
+/* COLOURED TAGS */
+.tag {
+    border-radius: 40px;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+}
+
+.blue-editorial {
+    border:1px solid #47adf1;
+    background-color: #47adf1;
+}
+
+.purple-goal {
+    border: 1px solid #9c72e4;
+    background-color: #9c72e4;
+}
+
+.green-recruiting {
+    border: 1px solid #64c0a9;
+    background-color: #64c0a9;
+}
+
+
+.orange-mobile {
+    border: 1px solid #f29e33;
+    background-color: #f29e33;
+}
+
+.pink-website {
+    border: 1px solid #d863a1;
+    background-color: #d863a1;
+}
+
+.green-sales {
+    border: 1px solid #b0c925;
+    background-color: #b0c925;
 }
