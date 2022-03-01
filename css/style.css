@@ -1,0 +1,23 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.container-header {
+    height: 60px;
+    margin: 10px;
+}
+
+#logo-img {
+   vertical-align: middle; 
+}
+
+#logo-text {
+    vertical-align: middle;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif;
+    color: #051a31;
+}
